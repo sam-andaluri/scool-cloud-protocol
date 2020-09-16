@@ -1,0 +1,17 @@
+[
+    {"type" : "cirrus", "query" : {"q": "cirrus and clouds", "extension":"jpg,png"}},
+    {"type" : "cirrocumulus", "query" : {"q": "cirrocumulus and clouds",  "extension":"jpg,png"}},
+    {"type" : "cirrostratus", "query" : {"q": "cirrostratus and clouds",  "extension":"jpg,png"}},
+    {"type" : "contrails", "query" : {"q": "contrails and clouds",  "extension":"jpg,png"}},
+    {"type" : "holepunch", "query" : {"q": "hole punch clouds",  "extension":"jpg,png"}},
+    {"type" : "altocumulus", "query" : {"q": "altocumulus and clouds",  "extension":"jpg,png"}},
+    {"type" : "altostratus", "query" : {"q": "altostratus and clouds",  "extension":"jpg,png"}},
+    {"type" : "wave", "query" : {"q": "wave clouds",  "extension":"jpg,png"}},
+    {"type" : "stratus", "query" : {"q": "stratus and clouds",  "extension":"jpg,png"}},
+    {"type" : "nimbostratus", "query" : {"q": "nimbostratus and clouds",  "extension":"jpg,png"}},
+    {"type" : "cumulus", "query" : {"q": "cumulus and clouds",  "extension":"jpg,png"}},
+    {"type" : "stratocumulus", "query" : {"q": "stratocumulus and clouds",  "extension":"jpg,png"}},
+    {"type" : "cumulonimbus", "query" : {"q": "cumulonimbus and clouds",  "extension":"jpg,png"}},
+    {"type" : "fog", "query" : {"q": "fog and clouds",  "extension":"jpg,png"}},
+    {"type" : "mammatus", "query" : {"q": "mammatus and clouds",  "extension":"jpg,png"}}    
+]
