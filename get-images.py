@@ -62,7 +62,7 @@ def findAndDownloadImages(accessToken):
             os.mkdir(cloudType)
 
         # get images for a given search params
-        params = {'q': query['query']['q'], 'extension': query['query']['extension'], 'page_size':100}
+        params = {'q': query['query']['q'], 'extension': query['query']['extension'], 'page_size':200}
         headers = {'Authorization': 'Bearer ' + accessToken}
         response = requests.get('http://api.creativecommons.engineering/v1/images', params=params, headers=headers)
         results = json.loads(response.text)

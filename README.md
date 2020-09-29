@@ -12,7 +12,7 @@ The satellite overpass times happen at a few odd times during the day and night.
 
 ## Solution
 
-The solution consists of 4 parts. First two parts are common. The last two steps would vary based on provider/tool.
+The solution consists of 4 parts. First two parts are common for all providers/APIs. The last two steps might vary based on provider/tool.
 
 - Collecting data to train a model with each provider.
 - Capturing images using RaspberryPi/Camera based on satellite overpass times.
@@ -22,6 +22,8 @@ The solution consists of 4 parts. First two parts are common. The last two steps
 ### Data collection for model training
 
 In order to compare and contrast different Vision APIs, the dataset would need to be same. Images are collected from Creative Commons Media search API to ensure images are free from any licensing restrictions. 
+
+Use ```get-images.py``` to get images from CreativeCommons. However for the initial use, you would need to get ```client_id```, ```client_secret``` and ```name``` and save it in ```secrets.json```.  
 
 ### Field image collection
 
@@ -38,5 +40,5 @@ Images from the field (ground truth) are collected from using a Raspberry Pi wit
 
 ### Disclaimer
 
-This project is a personal project to learn and use the knowledge to advance science in a way that helps me and children make a small contribution. I do not directly or indirectly endorsing a given cloud provider. I'm not comparing/contrasting the features or recommending one provider over the other. Opinions expressed in this project are my own. Please feel free to use any or all of this project at your own risk.
+This project is a personal project to learn and use the knowledge to advance science in a way that helps me and children make a small contribution. I'm not directly or indirectly endorsing a given cloud provider. I'm not comparing/contrasting the features or recommending one provider over the other. Opinions expressed in this project are my own. Please feel free to use any or all of this project at your own risk.
  
